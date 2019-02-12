@@ -3,9 +3,9 @@
     simple example build file
   </description>
   <!-- set global properties for this build -->
-  <property name="src" location="./src/swproj/converter">
-  <property name="build" location="./src/swproj"/>
-  <property name="dist" location="./target"/>
+  <property name="src" location="./src/swproj">
+  <property name="build" location="./build"/>
+  <property name="dist" location="./dist"/>
 
   <target name="init">
     <!-- Create the time stamp -->
